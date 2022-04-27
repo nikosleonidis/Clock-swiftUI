@@ -11,6 +11,19 @@
 		FA8A56B028078131001F8020 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8A56AF28078131001F8020 /* ContentView.swift */; };
 		FA8A56B228078133001F8020 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA8A56B128078133001F8020 /* Assets.xcassets */; };
 		FA8A56B528078133001F8020 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA8A56B428078133001F8020 /* Preview Assets.xcassets */; };
+		FA8A56CD280782CB001F8020 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8A56CC280782CB001F8020 /* Helper.swift */; };
+		FA8A56D72807837B001F8020 /* WorldClockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8A56D62807837B001F8020 /* WorldClockView.swift */; };
+		FA8A56D928078390001F8020 /* AlarmView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8A56D828078390001F8020 /* AlarmView.swift */; };
+		FA8A56DB280783AA001F8020 /* StopWatchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8A56DA280783AA001F8020 /* StopWatchView.swift */; };
+		FA8A56DF28078422001F8020 /* TimerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8A56DE28078422001F8020 /* TimerVC.swift */; };
+		FA8A56E12807844A001F8020 /* TimerVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8A56E02807844A001F8020 /* TimerVM.swift */; };
+		FA8A56E328078539001F8020 /* TimeStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8A56E228078539001F8020 /* TimeStruct.swift */; };
+		FA8A56E828078587001F8020 /* ProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8A56E728078587001F8020 /* ProgressBar.swift */; };
+		FA8A56EA280785B4001F8020 /* TimerButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8A56E9280785B4001F8020 /* TimerButton.swift */; };
+		FA8A56EC280785CC001F8020 /* TimerVMDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8A56EB280785CC001F8020 /* TimerVMDelegate.swift */; };
+		FA8A56F728078664001F8020 /* TimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8A56F628078664001F8020 /* TimerView.swift */; };
+		FA8A56F928078811001F8020 /* TimerState.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8A56F828078811001F8020 /* TimerState.swift */; };
+		FA8A56FB2807951A001F8020 /* PickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8A56FA2807951A001F8020 /* PickerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +32,19 @@
 		FA8A56AF28078131001F8020 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		FA8A56B128078133001F8020 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FA8A56B428078133001F8020 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FA8A56CC280782CB001F8020 /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		FA8A56D62807837B001F8020 /* WorldClockView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldClockView.swift; sourceTree = "<group>"; };
+		FA8A56D828078390001F8020 /* AlarmView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmView.swift; sourceTree = "<group>"; };
+		FA8A56DA280783AA001F8020 /* StopWatchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopWatchView.swift; sourceTree = "<group>"; };
+		FA8A56DE28078422001F8020 /* TimerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerVC.swift; sourceTree = "<group>"; };
+		FA8A56E02807844A001F8020 /* TimerVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerVM.swift; sourceTree = "<group>"; };
+		FA8A56E228078539001F8020 /* TimeStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeStruct.swift; sourceTree = "<group>"; };
+		FA8A56E728078587001F8020 /* ProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressBar.swift; sourceTree = "<group>"; };
+		FA8A56E9280785B4001F8020 /* TimerButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerButton.swift; sourceTree = "<group>"; };
+		FA8A56EB280785CC001F8020 /* TimerVMDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerVMDelegate.swift; sourceTree = "<group>"; };
+		FA8A56F628078664001F8020 /* TimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerView.swift; sourceTree = "<group>"; };
+		FA8A56F828078811001F8020 /* TimerState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerState.swift; sourceTree = "<group>"; };
+		FA8A56FA2807951A001F8020 /* PickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +77,12 @@
 		FA8A56AC28078131001F8020 /* Clock */ = {
 			isa = PBXGroup;
 			children = (
+				FA8A56BC28078176001F8020 /* Alert */,
+				FA8A56BE28078189001F8020 /* Utility */,
+				FA8A56BD28078180001F8020 /* Extensions */,
+				FA8A56C1280781AB001F8020 /* ViewControllers */,
+				FA8A56BF28078192001F8020 /* Models */,
+				FA8A56C028078197001F8020 /* Views */,
 				FA8A56AD28078131001F8020 /* ClockApp.swift */,
 				FA8A56AF28078131001F8020 /* ContentView.swift */,
 				FA8A56B128078133001F8020 /* Assets.xcassets */,
@@ -65,6 +97,117 @@
 				FA8A56B428078133001F8020 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FA8A56BC28078176001F8020 /* Alert */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Alert;
+			sourceTree = "<group>";
+		};
+		FA8A56BD28078180001F8020 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				FA8A56CC280782CB001F8020 /* Helper.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		FA8A56BE28078189001F8020 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		FA8A56BF28078192001F8020 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FA8A56DC280783CD001F8020 /* Timer */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		FA8A56C028078197001F8020 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FA8A56D228078325001F8020 /* WorldClock */,
+				FA8A56D32807832A001F8020 /* Alarm */,
+				FA8A56D428078336001F8020 /* StopWatch */,
+				FA8A56D528078358001F8020 /* Timer */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		FA8A56C1280781AB001F8020 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				FA8A56DD280783D2001F8020 /* Timer */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		FA8A56D228078325001F8020 /* WorldClock */ = {
+			isa = PBXGroup;
+			children = (
+				FA8A56D62807837B001F8020 /* WorldClockView.swift */,
+			);
+			path = WorldClock;
+			sourceTree = "<group>";
+		};
+		FA8A56D32807832A001F8020 /* Alarm */ = {
+			isa = PBXGroup;
+			children = (
+				FA8A56D828078390001F8020 /* AlarmView.swift */,
+			);
+			path = Alarm;
+			sourceTree = "<group>";
+		};
+		FA8A56D428078336001F8020 /* StopWatch */ = {
+			isa = PBXGroup;
+			children = (
+				FA8A56DA280783AA001F8020 /* StopWatchView.swift */,
+			);
+			path = StopWatch;
+			sourceTree = "<group>";
+		};
+		FA8A56D528078358001F8020 /* Timer */ = {
+			isa = PBXGroup;
+			children = (
+				FA8A56E42807855A001F8020 /* Components */,
+				FA8A56F628078664001F8020 /* TimerView.swift */,
+			);
+			path = Timer;
+			sourceTree = "<group>";
+		};
+		FA8A56DC280783CD001F8020 /* Timer */ = {
+			isa = PBXGroup;
+			children = (
+				FA8A56E02807844A001F8020 /* TimerVM.swift */,
+				FA8A56E228078539001F8020 /* TimeStruct.swift */,
+				FA8A56EB280785CC001F8020 /* TimerVMDelegate.swift */,
+			);
+			path = Timer;
+			sourceTree = "<group>";
+		};
+		FA8A56DD280783D2001F8020 /* Timer */ = {
+			isa = PBXGroup;
+			children = (
+				FA8A56DE28078422001F8020 /* TimerVC.swift */,
+				FA8A56F828078811001F8020 /* TimerState.swift */,
+			);
+			path = Timer;
+			sourceTree = "<group>";
+		};
+		FA8A56E42807855A001F8020 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				FA8A56E728078587001F8020 /* ProgressBar.swift */,
+				FA8A56E9280785B4001F8020 /* TimerButton.swift */,
+				FA8A56FA2807951A001F8020 /* PickerView.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +280,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA8A56DF28078422001F8020 /* TimerVC.swift in Sources */,
+				FA8A56E12807844A001F8020 /* TimerVM.swift in Sources */,
+				FA8A56DB280783AA001F8020 /* StopWatchView.swift in Sources */,
+				FA8A56F928078811001F8020 /* TimerState.swift in Sources */,
+				FA8A56E828078587001F8020 /* ProgressBar.swift in Sources */,
+				FA8A56D72807837B001F8020 /* WorldClockView.swift in Sources */,
 				FA8A56B028078131001F8020 /* ContentView.swift in Sources */,
+				FA8A56F728078664001F8020 /* TimerView.swift in Sources */,
+				FA8A56CD280782CB001F8020 /* Helper.swift in Sources */,
 				FA8A56AE28078131001F8020 /* ClockApp.swift in Sources */,
+				FA8A56EC280785CC001F8020 /* TimerVMDelegate.swift in Sources */,
+				FA8A56FB2807951A001F8020 /* PickerView.swift in Sources */,
+				FA8A56D928078390001F8020 /* AlarmView.swift in Sources */,
+				FA8A56EA280785B4001F8020 /* TimerButton.swift in Sources */,
+				FA8A56E328078539001F8020 /* TimeStruct.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

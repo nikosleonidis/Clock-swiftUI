@@ -8,6 +8,7 @@
 import SwiftUI
 
 @main
+@available(iOS 14.0, *)
 struct ClockApp: App {
     var body: some Scene {
         WindowGroup {
